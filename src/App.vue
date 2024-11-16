@@ -1,13 +1,11 @@
-<template lang="">
-  <div>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  </div>
+<template>
+  <Head />
+  <Hero />
 </template>
-<script>
-
+<script setup>
+  import Head from '@/components/AppHead.vue'
+  import Hero from '@/components/AppHero.vue'
 </script>
-<style lang="">
+<style>
   
 </style>
