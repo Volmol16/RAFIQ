@@ -6,9 +6,13 @@
         <main>
             <AppHero />
         </main>
+        <section>
+            <ExplorePower />
+        </section>
     </div>
 </template>
 <script setup>
 import AppHead from '@/components/AppHead.vue'
 import AppHero from '@/components/AppHero.vue'
+import ExplorePower from '@/components/ExplorePower.vue';
 </script>
