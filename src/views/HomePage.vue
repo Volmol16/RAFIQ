@@ -1,13 +1,19 @@
 <template>
-    <div class="container max-w-[1280px] mx-auto">
-        <header class="mt-11">
+    <div class="">
+        <header class="mt-11 container max-w-[1280px] mx-auto">
             <AppHead />
         </header>
-        <main>
+        <main class="container max-w-[1280px] mx-auto">
             <AppHero />
         </main>
-        <section>
+        <section class="container max-w-[1280px] mx-auto">
             <ExplorePower />
+        </section>
+        <section class="mt-11 flex flex-col items-center">
+            <img class="absolute bg-cover bg-center mx-auto -z-10" src="/img/img_CreateOwn.png" alt="">
+            <div class="relative top-[110px] container max-w-[1280px] mx-auto">
+                <CreateOwn />
+            </div>
         </section>
     </div>
 </template>
@@ -15,4 +21,5 @@
 import AppHead from '@/components/AppHead.vue'
 import AppHero from '@/components/AppHero.vue'
 import ExplorePower from '@/components/ExplorePower.vue';
+import CreateOwn from '@/components/CreateOwn.vue';
 </script>
