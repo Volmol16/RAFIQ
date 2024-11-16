@@ -6,7 +6,19 @@
         <p class="hero-description">
             Effortlessly create AI chatbots tailored to your data, documents, or files, and experience limitless general chatting with ChatGPT. Boost your productivity, learning, and research with the power of AI at your fingertips
         </p>
-        
+        <div class="get-started">
+            <button class="hero-btn">
+                Get Started
+            </button>
+            <div class="get-started-avatar">
+                <img src='/img/Avatar-1.jpg' alt="">
+                <img src='' alt="">
+                <img src='' alt="">
+            </div>
+            <p class="get-started-description">
+                Join with 10,000+ users
+            </p>
+        </div>
     </div>
 </template>
 
