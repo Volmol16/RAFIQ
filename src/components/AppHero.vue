@@ -12,8 +12,8 @@
             </button>
             <div class="get-started-avatar">
                 <img src='/img/Avatar-1.jpg' alt="">
-                <img src='' alt="">
-                <img src='' alt="">
+                <img src='/img/Avatar-2.jpg' alt="">
+                <img src='/img/Avatar-3.jpg' alt="/img/Avatar-3.jpg">
             </div>
             <p class="get-started-description">
                 Join with 10,000+ users
