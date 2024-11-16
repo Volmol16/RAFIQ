@@ -30,5 +30,4 @@ import ExplorePower from '@/components/ExplorePower.vue';
 import CreateOwn from '@/components/CreateOwn.vue';
 import UseCasec from '@/components/UseCasec.vue';
 import ChoosePerfectPlan from '@/components/ChoosePerfectPlan.vue';
-import TryRafiq from '@/components/TryRafiq.vue';
 </script>
