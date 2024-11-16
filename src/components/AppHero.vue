@@ -8,7 +8,6 @@
             chatting with ChatGPT. Boost your productivity, learning, and research with the power of AI at your
             fingertips
         </p>
-
     </div>
 </template>
 
