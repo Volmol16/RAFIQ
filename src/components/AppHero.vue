@@ -10,15 +10,15 @@
             fingertips
         </p>
         <div class="get-started">
-            <button>
+            <button class="get-started-btn">
                 Get started ->
             </button>
             <div class="get-started-avatar">
-                <img src="/img/Avatar-1.jpg" alt="avatar">
-                <img src="/img/Avatar-2.jpg" alt="avatar">
-                <img src="/img/Avatar-3.jpg" alt="avatar">
+                <img class="z-0" src="/img/Avatar-1.png" alt="avatar">
+                <img class="z-10" src="/img/Avatar-2.png" alt="avatar">
+                <img class="z-20" src="/img/Avatar-3.png" alt="avatar">
             </div>
-            <p>
+            <p class="get-started-join">
                 Join with 10,000+ users
             </p>
         </div>
@@ -62,5 +62,31 @@
         color: #fff;
     }
 
-   
+    .get-started {
+        display: flex;
+        column-gap: 17px;
+    }
+
+    .get-started-btn {
+        padding: 14px 40px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18.15px;
+        border: none;
+        border-radius: 9px;
+        color: #263238;
+        background-color: #fff;
+    }
+
+    .get-started-avatar {
+        display: flex;
+    }
+
+    .get-started-join {
+        /* width: 140px; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.23px;
+        color: #fff;
+    }
 </style>
