@@ -17,42 +17,42 @@
 </template>
 
 <style scoped>
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: black;
-    }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
 
-    ul {
-        display: flex;
-        column-gap: 30px;
-    }
+ul {
+    display: flex;
+    column-gap: 30px;
+}
 
-    a {
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 18.15px;
-        color: #fff;
-    }
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+    color: #fff;
+}
 
-    .login-btn {
-        padding: 8px 17px;
-        color: #fff;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 18.15px;
-    }
+.login-btn {
+    padding: 8px 17px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+}
 
-    .try-btn {
-        padding: 8px 17px;
-        color: #fff;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 18.15px;
-        background-color: #00ADB5;
-        border: none;
-        border-radius: 9px;
-    }
+.try-btn {
+    padding: 8px 17px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+    background-color: #00ADB5;
+    border: none;
+    border-radius: 9px;
+}
 </style>
