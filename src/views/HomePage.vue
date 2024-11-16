@@ -6,11 +6,11 @@
         <main class="container max-w-[1280px] mx-auto">
             <AppHero />
         </main>
-        <section class="container max-w-[1280px] mx-auto">
+        <section class="container max-w-[1280px] mx-auto mt-11">
             <ExplorePower />
         </section>
         <section class="mt-11 flex flex-col items-center">
-            <img class="absolute bg-cover bg-center mx-auto -z-10" src="/img/img_CreateOwn.png" alt="">
+            <img class="absolute bg-cover bg-center mx-auto -z-10 rounded-2xl" src="/img/img_CreateOwn.png" alt="">
             <div class="relative top-[110px] container max-w-[1280px] mx-auto">
                 <CreateOwn />
             </div>
