@@ -1,11 +1,9 @@
 <template>
-  <Head />
-  <Hero />
+  <div>
+    <HomePage />
+  </div>
 </template>
 <script setup>
-  import Head from '@/components/AppHead.vue'
-  import Hero from '@/components/AppHero.vue'
+import HomePage from '@/views/HomePage.vue'
 </script>
-<style>
-  
-</style>
+<style></style>
