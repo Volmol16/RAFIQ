@@ -18,6 +18,9 @@
         <section class="container max-w-[1280px] mx-auto mt-40">
             <UseCasec />
         </section>
+        <section>
+            <TryRafiq />
+        </section>
         <section class="mt-40 container max-w-full mx-auto bg-[#001E20] py-8">
             <ChoosePerfectPlan />
         </section>
@@ -30,4 +33,5 @@ import ExplorePower from '@/components/ExplorePower.vue';
 import CreateOwn from '@/components/CreateOwn.vue';
 import UseCasec from '@/components/UseCasec.vue';
 import ChoosePerfectPlan from '@/components/ChoosePerfectPlan.vue';
+import TryRafiq from '@/components/TryRafiq.vue';
 </script>
