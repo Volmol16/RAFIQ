@@ -15,66 +15,13 @@
             </h3>
         </div>
         <div class="cases-cards">
-            <div class="cases-card">
-                <img class="cases-book-icon" src="/img/book-icon.svg" alt="">
-                <h3 class="cases-card-title">
-                    Simplified Learning
+            <div v-for="hui in casesCardStudents" class="cases-card">
+                <img class="" :src="hui.img" alt="">
+                <h3 class="cases-card-title mt-10">
+                    {{ hui.title }}
                 </h3>
                 <p class="cases-card-description">
-                    Rafiq enhances the learning experience by making textbooks, handouts, and presentations more
-                    accessible and comprehensible.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-time-icon" src="/img/time.svg" alt="">
-                <h3 class="cases-card-title">
-                    Time Saving
-                </h3>
-                <p class="cases-card-description">
-                    Quickly find answers from your documents and files, reducing the need for extensive searching and
-                    reading.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-medal-icon" src="/img/medal.svg" alt="">
-                <h3 class="cases-card-title">
-                    Academic Success
-                </h3>
-                <p class="cases-card-description">
-                    Boost your academic performance by effectively utilizing Rafiq's capabilities to support your
-                    studies.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-setting-icon" src="/img/setting.svg" alt="">
-                <h3 class="cases-card-title">
-                    Technical Paper Comprehension
-                </h3>
-                <p class="cases-card-description">
-                    Understand complex technical papers 100x faster with Rafiq's powerful AI-driven analysis.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-document-icon" src="/img/documents.svg" alt="">
-                <h3 class="cases-card-title">
-                    Summarisation
-                </h3>
-                <p class="cases-card-description">
-                    Effortlessly summarize long papers and extract key information to focus on important points.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-flash-icon" src="/img/flash.svg" alt="">
-                <h3 class="cases-card-title">
-                    Rapid Learning
-                </h3>
-                <p class="cases-card-description">
-                    Turn intricate technical papers into easy-to-understand summaries and discover new insights quickly.
+                    {{ hui.description }}
                 </p>
             </div>
         </div>
@@ -318,3 +265,46 @@
     background-color: #A0BCC280;
 }
 </style>
+
+<script setup>
+
+const casesCardStudents = ([
+    {
+        id: 1,
+        img: '/usecases/1.png',
+        title: 'Simplified Learning',
+        description: 'Rafiq enhances the learning experience by making textbooks, handouts, and presentations more accessible and comprehensible.'
+    },
+    {
+        id: 2,
+        img: '/usecases/2.png',
+        title: 'Time Saving',
+        description: 'Quickly find answers from your documents and files, reducing the need for extensive searching and reading.'
+    },
+    {
+        id: 3,
+        img: '/usecases/3.png',
+        title: 'Data-Driven Insights',
+        description: 'Rafiq provides data-driven insights, enabling organizations to make informed decisions based on the data provided.'
+    },
+    {
+        id: 4,
+        img: '/usecases/4.png',
+        title: 'Customization',
+        description: 'Rafiq allows users to create custom chatbots that align with their specific needs and preferences.'
+    },
+    {
+        id: 5,
+        img: '/usecases/5.png',
+        title: 'Document Management',
+        description: 'Rafiq simplifies document management by providing a user-friendly interface for uploading, organising, and sharing documents.'
+    },
+    {
+        id: 6,
+        img: '/usecases/6.png',
+        title: 'Data Security',
+        description: 'Rafiq ensures the security of data by encrypting it and implementing robust security measures to protect against unauthorized access.'
+    }
+])
+
+</script>
