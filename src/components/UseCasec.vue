@@ -15,13 +15,13 @@
             </h3>
         </div>
         <div class="cases-cards">
-            <div v-for="hui in casesCardStudents" class="cases-card">
-                <img class="" :src="hui.img" alt="">
+            <div v-for="item in casesCardStudents" :key="item.id" class="cases-card">
+                <img class="" :src="item.img" alt="">
                 <h3 class="cases-card-title mt-10">
-                    {{ hui.title }}
+                    {{ item.title }}
                 </h3>
                 <p class="cases-card-description">
-                    {{ hui.description }}
+                    {{ item.description }}
                 </p>
             </div>
         </div>
@@ -34,71 +34,17 @@
             </h3>
         </div>
         <div class="cases-cards">
-            <div class="cases-card">
-                <img class="cases-filter-icon cases-icon" src="/img/documentfilter.svg" alt="">
-                <h3 class="cases-card-title">
-                    Document Analysis
+            <div v-for="item in casesCardWork" :key="item.id" class="cases-card">
+                <img class="" :src="item.img" alt="">
+                <h3 class="cases-card-title mt-10">
+                    {{ item.title }}
                 </h3>
                 <p class="cases-card-description">
-                    Efficiently analyze various documents, such as financial reports, project proposals, training
-                    manuals, and legal contracts, with Rafiq's AI-driven capabilities.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-security-icon cases-icon" src="/img/securitysafe.svg" alt="">
-                <h3 class="cases-card-title">
-                    Data Security
-                </h3>
-                <p class="cases-card-description">
-                    Benefit from confidential and secure cloud storage, with the option to delete your data at any time.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-message-icon cases-icon" src="/img/messaget.svg" alt="">
-                <h3 class="cases-card-title">
-                    Custom Chatbot Creation
-                </h3>
-                <p class="cases-card-description">
-                    Add your content to create a custom ChatGPT and integrate it with your website for a seamless user
-                    experience.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-star-icon cases-icon" src="/img/star.svg" alt="">
-                <h3 class="cases-card-title">
-                    Smart Answers
-                </h3>
-                <p class="cases-card-description">
-                    Save time for customers, employees, and followers by providing faster, more accurate responses to
-                    frequently asked questions.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-briefcase-icon cases-icon" src="/img/briefcase.svg" alt="">
-                <h3 class="cases-card-title">
-                    Enhanced Productivity
-                </h3>
-                <p class="cases-card-description">
-                    Boost company, creator, or brand performance by streamlining communication and minimizing repetitive
-                    tasks.
-                </p>
-            </div>
-
-            <div class="cases-card">
-                <img class="cases-layer-icon cases-icon" src="/img/layer.svg" alt="">
-                <h3 class="cases-card-title">
-                    Content Generation
-                </h3>
-                <p class="cases-card-description">
-                    Automatically generate detailed insights for reports, papers, and various tasks based on your files,
-                    streamlining your workflow.
+                    {{ item.description }}
                 </p>
             </div>
         </div>
+
     </section>
 </template>
 
@@ -306,5 +252,44 @@ const casesCardStudents = ([
         description: 'Rafiq ensures the security of data by encrypting it and implementing robust security measures to protect against unauthorized access.'
     }
 ])
+
+const casesCardWork = ([
+    {
+        id: 7,
+        img: '/usecases/7.png',
+        title: 'Document Analysis',
+        description: "Efficiently analyze various documents, such as financial reports, project proposals, training manuals, and legal contracts, with Rafiq's AI-driven capabilities."
+    },
+    {
+        id: 8,
+        img: '/usecases/8.png',
+        title: 'Data Security',
+        description: "Benefit from confidential and secure cloud storage, with the option to delete your data at any time."
+    },
+    {
+        id: 9,
+        img: '/usecases/9.png',
+        title: 'Custom Chatbot Creation',
+        description: "Add your content to create a custom ChatGPT and integrate it with your website for a seamless user experience."
+    },
+    {
+        id: 10,
+        img: '/usecases/10.png',
+        title: 'Smart Answers',
+        description: "Save time for customers, employees, and followers by providing faster, more accurate responses to frequently asked questions."
+    },
+    {
+        id: 11,
+        img: '/usecases/11.png',
+        title: 'Enhanced Productivity',
+        description: "Boost company, creator, or brand performance by streamlining communication and minimizing repetitive tasks."
+    },
+    {
+        id: 12,
+        img: '/usecases/12.png',
+        title: 'Content Generation',
+        description: "Automatically generate detailed insights for reports, papers, and various tasks based on your files, streamlining your workflow."
+    },
+]) 
 
 </script>
