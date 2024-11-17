@@ -21,6 +21,9 @@
         <section class="container max-w-[1280px] mx-auto mt-40">
             <TryRafiq />
         </section>
+        <section class="container max-w-[1280px] mx-auto mt-40">
+            <UnlockThePower />
+        </section>
         <div class="mt-40 max-w-full mx-auto bg-[#001E20] py-8">
             <section class="container max-w-[1280px] mx-auto">
                 <ChoosePerfectPlan />
@@ -39,5 +42,6 @@ import CreateOwn from '@/components/CreateOwn.vue';
 import UseCasec from '@/components/UseCasec.vue';
 import ChoosePerfectPlan from '@/components/ChoosePerfectPlan.vue';
 import TryRafiq from '@/components/TryRafiq.vue';
+import UnlockThePower from '@/components/UnlockThePower.vue';
 import FrequentlyAsked from '@/components/FrequentlyAsked.vue';
 </script>
