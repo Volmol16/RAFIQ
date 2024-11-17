@@ -29,6 +29,9 @@
                 <ChoosePerfectPlan />
             </section>
         </div>
+        <section class="container max-w-[1280px] mx-auto mt-16">
+            <FrequentlyAsked />
+        </section>
     </div>
 </template>
 <script setup>
@@ -40,4 +43,5 @@ import UseCasec from '@/components/UseCasec.vue';
 import ChoosePerfectPlan from '@/components/ChoosePerfectPlan.vue';
 import TryRafiq from '@/components/TryRafiq.vue';
 import UnlockThePower from '@/components/UnlockThePower.vue';
+import FrequentlyAsked from '@/components/FrequentlyAsked.vue';
 </script>
