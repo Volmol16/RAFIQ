@@ -21,9 +21,11 @@
         <section class="container max-w-[1280px] mx-auto mt-40">
             <TryRafiq />
         </section>
-        <section class="mt-40 container max-w-full mx-auto bg-[#001E20] py-8">
-            <ChoosePerfectPlan />
-        </section>
+        <div class="mt-40 max-w-full mx-auto bg-[#001E20] py-8">
+            <section class="container max-w-[1280px] mx-auto">
+                <ChoosePerfectPlan />
+            </section>
+        </div>
     </div>
 </template>
 <script setup>
