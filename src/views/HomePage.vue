@@ -32,6 +32,11 @@
         <section class="container max-w-[1280px] mx-auto mt-16">
             <FrequentlyAsked />
         </section>
+        <footer class="mt-16 bg-[#0A0A0A]">
+            <div class="container max-w-[1280px] mx-auto ">
+                <Footer />
+            </div>
+        </footer>
     </div>
 </template>
 <script setup>
@@ -44,4 +49,5 @@ import ChoosePerfectPlan from '@/components/ChoosePerfectPlan.vue';
 import TryRafiq from '@/components/TryRafiq.vue';
 import UnlockThePower from '@/components/UnlockThePower.vue';
 import FrequentlyAsked from '@/components/FrequentlyAsked.vue';
+import Footer from '@/components/Footer.vue'
 </script>
