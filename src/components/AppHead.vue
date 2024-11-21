@@ -35,6 +35,11 @@ a {
     font-weight: 500;
     line-height: 18.15px;
     color: #fff;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #ffffffc2;
 }
 
 .login-btn {
@@ -43,6 +48,11 @@ a {
     font-size: 15px;
     font-weight: 500;
     line-height: 18.15px;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    color: #ffffffc2;
 }
 
 .try-btn {
@@ -54,5 +64,10 @@ a {
     background-color: #00ADB5;
     border: none;
     border-radius: 9px;
+    transition: all 0.3s ease;
+}
+
+.try-btn:hover {
+    background-color: #00acb5c4;
 }
 </style>

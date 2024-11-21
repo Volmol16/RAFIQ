@@ -35,7 +35,6 @@
     padding-bottom: 90px;
     padding-left: 60px;
     display: flex;
-    /* align-items: center; */
     border-radius: 15px;
     background-color: #263238;
 }
@@ -72,5 +71,10 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 18.15px;
+    transition: all 0.3s ease;
+}
+
+.try-rafiq-btn:hover {
+    background-color: #00acb5c4;
 }
 </style>

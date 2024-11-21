@@ -11,7 +11,7 @@
                 fingertips
             </p>
             <div>
-                <button class="px-10 py-3.5 bg-white text-black rounded-xl">Get started -></button>
+                <button class="px-10 py-3.5 bg-white text-black rounded-xl hover:bg-white/70 duration-300">Get started -></button>
             </div>
         </div>
         <div class="hero-image">
